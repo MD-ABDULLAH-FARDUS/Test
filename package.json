@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap_check_on_github",
+  "version": "1.0.0",
+  "description": "Is bootstrap load on github page if installed by npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test_bs_4"
+  },
+  "author": "Md Abdullah Fardus",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  },
+  "devDependencies": {
+    "jquery": "3.5.1"
+  }
+}

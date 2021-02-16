@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <header class="container">
+        <h1 class="text-center">Testing Website</h1>
+    </header>
+    <main class="container">
+        <section class="row">
+            <section class="col-4 offset-4 alert alert-info" id="alert_box">
+                <h2>Checking this website....</h2>
+                <hr>
+                <p>I am testing this website why not allowing when using bootstrap through npm...</p>
+                <hr>
+                <button class="btn btn-outline-info" id="ok">ok</button>
+                <button class="btn btn-outline-danger" id="not_ok">not ok</button>
+            </section>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#ok').on('click',function(){
+                $('#alert_box').css('border','3px solid green')
+            })
+            $('#not_ok').on('click',function(){
+                $('#alert_box').css('border','3px solid red')
+            })
+        })
+    </script>
+</body>
+</html>
